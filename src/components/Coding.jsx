@@ -1,8 +1,8 @@
 export default function CodingProfiles() {
   const leetcodeStats = {
-    solved: 158,
+    solved: 160,
     easy: 111,
-    medium: 42,
+    medium: 44,
     hard: 5,
   };
 
