@@ -1,26 +1,41 @@
 export default function Projects() {
-  const projects = [
-    {
-      title: "Mood Travel Selector",
-      image: "/mood-travel-decider.png",
-      description:
-        "A responsive travel recommendation application that suggests destinations based on the user's mood and preferences.",
-      tech: ["HTML", "CSS", "JavaScript", "UI Design"],
-      github: "https://github.com/Manu1067/Mood-Travel-Selector",
-      demo: "https://mood-travel-selector.vercel.app/",
-    },
+ const projects = [
+  {
+    title: "StudySpark",
+    image: "/studyspark.png",
+    description:
+      "A student productivity web application that helps track study sessions, manage exam countdowns, and calculate the SGPA required to achieve target CGPA. Built with React and Tailwind CSS with localStorage persistence.",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "JavaScript",
+      "Local Storage",
+    ],
+    github: "https://github.com/Manu1067/StudySpark",
+    demo: "https://study-spark-gray.vercel.app/",
+  },
 
-    {
-      title: "Learning Path Generator",
-      image: "/learning-path.png",
-      description:
-        "An interactive React application that generates personalized learning roadmaps for Frontend, Backend, AI, and Cybersecurity careers.",
-      tech: ["React", "JavaScript", "CSS", "Local Storage"],
-      github: "https://github.com/Manu1067/learning-path",
-      demo: "https://learning-path-generator-eight.vercel.app/",
-    },
-  ];
+  {
+    title: "Mood Travel Selector",
+    image: "/mood-travel-decider.png",
+    description:
+      "A responsive travel recommendation application that suggests destinations based on the user's mood and preferences.",
+    tech: ["HTML", "CSS", "JavaScript", "UI Design"],
+    github: "https://github.com/Manu1067/Mood-Travel-Selector",
+    demo: "https://mood-travel-selector.vercel.app/",
+  },
 
+  {
+    title: "Learning Path Generator",
+    image: "/learning-path.png",
+    description:
+      "An interactive React application that generates personalized learning roadmaps for Frontend, Backend, AI, and Cybersecurity careers.",
+    tech: ["React", "JavaScript", "CSS", "Local Storage"],
+    github: "https://github.com/Manu1067/learning-path",
+    demo: "https://learning-path-generator-eight.vercel.app/",
+  },
+];
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
